@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                      [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.backgroundColor = .orange
+        window?.backgroundColor = .systemBackground
         window?.rootViewController = LoginViewController()
         window?.makeKeyAndVisible()
 
